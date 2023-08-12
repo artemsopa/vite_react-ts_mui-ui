@@ -1,0 +1,20 @@
+{
+	"extends": [
+		"airbnb",
+		"airbnb-typescript"
+	],
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"react/prop-types": "off",
+		"import/extensions": "off",
+		"react/react-in-jsx-scope": "off",
+		"import/no-extraneous-dependencies": "off",
+		"react/function-component-definition": "off"
+	}
+}
